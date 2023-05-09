@@ -49,7 +49,7 @@ struct ProfileView: View {
                 Section("Account") {
                     Button {profile.signOut()} label: {
                         SettingsView(imageName: "arrow.left.circle.fill",
-                                     title: "Sign Out",
+                                     title: "Sair",
                                      tintColor: Color(.systemRed))
                     }
                     .foregroundColor(.primary)
@@ -61,7 +61,7 @@ struct ProfileView: View {
                         }
                     } label: {
                         SettingsView(imageName: "xmark.circle.fill",
-                                     title: "Delete Account",
+                                     title: "Deletar Conta",
                                      tintColor: Color(.systemRed))
                     }
                     .foregroundColor(.primary)

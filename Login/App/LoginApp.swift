@@ -19,6 +19,7 @@ struct LoginApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(AuthViewModel())
+                
         }
     }
 }

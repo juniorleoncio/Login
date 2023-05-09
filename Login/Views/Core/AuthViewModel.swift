@@ -9,9 +9,11 @@ import Foundation
 import Firebase
 import FirebaseFirestoreSwift
 
+
 protocol AuthenticationFormProtocol {
     var formIsValid: Bool { get }
 }
+
 
 @MainActor
 class AuthViewModel: ObservableObject {
@@ -51,6 +53,9 @@ class AuthViewModel: ObservableObject {
             print("DEBUG: Failed in sigIn with error\(error.localizedDescription)")
         }
     }
+    
+  
+
     
     // Deslogar
     func signOut() {
@@ -101,3 +106,5 @@ class AuthViewModel: ObservableObject {
         self.currentUser = try? snapshot.data(as: User.self)
     }
 }
+
+

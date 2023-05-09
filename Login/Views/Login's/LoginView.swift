@@ -77,54 +77,6 @@ struct LoginView: View {
                 
             }
             
-            
-            VStack(spacing: 24) {
-                    
-                Text("Ou continue com")
-                    .font(.subheadline)
-                    .foregroundColor(.gray)
-                    .padding(.top, 24)
-                
-               
-                
-                HStack(spacing: 24) {
-                    
-                    // Login com conta Google
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 30)
-                            .frame(width: 100, height: 100)
-                            .foregroundColor(.gray).opacity(0.3)
-                        
-                        Button {print("Google login")} label: {
-                            Image("badge-google")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 50, height: 50)
-                        }
-                    }
-                    // login com conta Apple
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 30)
-                            .frame(width: 100, height: 100)
-                            .foregroundColor(.gray).opacity(0.3)
-                            
-                            
-                        Button { print("login apple")} label: {
-                            Image(systemName: "apple.logo")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 50, height: 50)
-                                .foregroundColor(.primary)
-                            
-                        }
-                        
-                    }
-                    
-                }
-             
-                
-            }
-            
             Spacer()
             
             HStack {
