@@ -1,48 +1,61 @@
 
-<!DOCTYPE html>
-<html>
-<head>
+<h1>Login</h1>
 
-</head>
-<body>
-	<h1>Login App</h1>
-	<p>Login App é um aplicativo iOS desenvolvido em Swift e SwiftUI utilizando o padrão MVVM. O objetivo do aplicativo é permitir que usuários possam realizar login e cadastro utilizando o Firebase Authentication e armazenar seus dados no Firestore Cloud.</p>
-	<h2>Funcionalidades</h2>
-	<ul>
-    <li>Login e Cadastro com Email e Senha</li>
-		<li>Armazenamento de dados do usuário no Firestore Cloud</li>
-		<li>Recuperação de senha via e-mail</li>
-		<li>Deletar conta do usuário</li>
-	</ul>
-	<h2>Tecnologias</h2>
-	<ul>
-		<li>Swift</li>
-		<li>SwiftUI</li>
-		<li>MVVM</li>
-		<li>Firebase Authentication</li>
-		<li>Firestore Cloud</li>
-	</ul>
-	<h2>Requisitos</h2>
-	<ul>
-		<li>Xcode 12 ou superior</li>
-		<li>iOS 14.0 ou superior</li>
-    <li>Conta Firebase</li>
-		<li>Conexão com a Internet</li>
-	</ul>
-	<h2>Configuração</h2>
-	<p>Para executar o aplicativo, siga os seguintes passos:</p>
-	<ol>
-		<li>Clone o repositório em sua máquina local</li>
-		<li>Abra o arquivo Login.xcworkspace no Xcode</li>
-		<li>Adicione o arquivo GoogleService-Info.plist do seu projeto Firebase ao diretório do projeto</li>
-		<li>Abra o Terminal e navegue até o diretório do projeto</li>
-		<li>Execute o comando pod install para instalar as dependências do Firebase</li>
-		<li>Execute o aplicativo no simulador ou em um dispositivo físico conectado</li>
-	</ol>
-	<h2>Como usar</h2>
-	<p>Ao abrir o aplicativo, você será apresentado com uma tela de Login. Caso já tenha uma conta, insira seu e-mail e senha nos campos apropriados e clique no botão "Log In". Caso não tenha uma conta, clique no botão "Cadastre-se" para criar uma nova conta.</p>
-	<p>Na tela de cadastro, preencha os campos de e-mail, senha e nome completo e clique no botão "Cadastrar-se". Você será redirecionado para a tela de profile, onde poderá ver seus dados recém cadastrados.</p>
-	<p>Caso tenha esquecido sua senha, clique no botão "Esqueceu sua senha?" na tela de login e siga as instruções para recuperar sua senha via e-mail.</p>
-	<p>Caso queira excluir sua conta, clique no botão "Deletar Conta" na tela de perfil e siga as instruções para confirmar a exclusão da conta.</p>
-	<h2>Conclusão</h2>
-	<p>O Login App é uma ótima base para quem deseja implementar um sistema de login e cadastro
+<img src="https://github.com/juniorleoncio/Login/assets/15078540/6b8a93cf-9032-4c75-8a2e-26a9c75e3d12" width="300px" />
+<img src="https://github.com/juniorleoncio/Login/assets/15078540/6b060635-a57e-459e-8911-8f17d4658a37" width="300px" />
+<img src="https://github.com/juniorleoncio/Login/assets/15078540/0644535b-9711-4eda-af2f-b201e5595bb3" width="300px" />
+<img src="https://github.com/juniorleoncio/Login/assets/15078540/1ccd1a91-c12e-4f70-973b-6e497f9e9704" width="300px" />
+	
+	
+
+<p>O Login é um aplicativo desenvolvido em Swift, SwiftUI e MVVM que realiza o cadastro e login de usuários utilizando o FirebaseAuth e armazena as informações no Firestore Cloud. Além disso, o aplicativo oferece a funcionalidade de recuperação de senha, exclusão de conta e logout.</p>
+
+<h2>Funcionalidades</h2>
+
+<ul>
+  <li>Cadastro de usuário utilizando o FirebaseAuth</li>
+  <li>Login de usuário utilizando o FirebaseAuth</li>
+  <li>Recuperação de senha em caso de perda</li>
+  <li>Exclusão de conta</li>
+  <li>Logout</li>
+</ul>
+
+<h2>Tecnologias utilizadas</h2>
+
+<ul>
+  <li>Swift</li>
+  <li>SwiftUI</li>
+  <li>Firebase (Auth e Firestore Cloud)</li>
+</ul>
+
+<h2>Como usar</h2>
+
+<ol>
+  <li>Baixe o código do repositório</li>
+  <li>Abra o projeto no Xcode</li>
+  <li>Execute o aplicativo em um simulador ou dispositivo iOS</li>
+  <li>Na tela inicial, escolha entre criar uma conta ou fazer login em uma conta existente</li>
+  <li>Para criar uma nova conta, preencha os campos necessários e pressione "Cadastrar"</li>
+  <li>Para fazer login em uma conta existente, preencha os campos necessários e pressione "Login"</li>
+  <li>Caso tenha esquecido sua senha, na tela de login, pressione "Esqueci minha senha" e siga as instruções</li>
+  <li>Para excluir sua conta, na tela de perfil, pressione "Excluir conta" e siga as instruções</li>
+  <li>Para fazer logout, na tela de perfil, pressione "Sair"</li>
+</ol>
+
+<h2>Contribuindo</h2>
+
+<p>Contribuições são sempre bem-vindas! Se você quiser contribuir com este projeto, siga os passos abaixo:</p>
+
+<ol>
+  <li>Faça um fork do repositório</li>
+  <li>Crie uma nova branch com a sua feature ou correção de bug: git checkout -b minha-feature</li>
+  <li>Faça as alterações necessárias e commit: git commit -m "Descrição da minha feature"</li>
+  <li>Envie as alterações para o seu fork: git push origin minha-feature</li>
+  <li>Abra um pull request para o repositório original</li>
+</ol>
+
+<h2>Licença</h2>
+
+<p>Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.</p>
+
+
